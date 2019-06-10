@@ -4,8 +4,8 @@ const apiKey = process.env.api_key;
 const request = require('request');
 
 module.exports = {
-getWeather :    
-    function getWeather(input, error, callback){
+getTemp :    
+    function getTemp(input, callback){
         //var input = "Bristol";
         let city = input;
         let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
@@ -17,10 +17,10 @@ getWeather :
               let weather = JSON.parse(body)
               if(weather.main == undefined){
                 console.log('Error, please try again');
-                //let data = "Error";
-                //return callback(data);
+                let data = "City not found.";
+                return callback(data);
               } else {
-                let data = weather;
+                let data = weather.main.temp + "°C";
                 return callback(data);
               }
             }
