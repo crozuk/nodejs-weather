@@ -17,7 +17,6 @@ getWeather :
               let weather = JSON.parse(body)
               if(weather.main == undefined){
                 console.log('Error, please try again');
-                let data = "Error";
               } else {
                 let data = weather;
                 return callback(data);
