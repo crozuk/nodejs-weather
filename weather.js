@@ -1,7 +1,6 @@
 require('dotenv').config();
 const apiKey = process.env.api_key;
 
-const bodyParser = require('body-parser');
 const request = require('request');
 
 module.exports = {
@@ -13,11 +12,12 @@ getWeather :
     
         request(url, function (err, response, body) {
             if(err){
-              console.log('Error, please try again'); 
+              console.log('Error, please try again');
             } else {
               let weather = JSON.parse(body)
               if(weather.main == undefined){
                 console.log('Error, please try again');
+                let data = "Error";
               } else {
                 let data = weather;
                 return callback(data);

@@ -1,0 +1,57 @@
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND root 1 0.0 0.8 225208 9004 ?  Ss Jun09 0:02 /sbin/init root 2 0.0 0.0 0 0 ?  S Jun09 0:00 
+[kthreadd] root 4 0.0 0.0 0 0 ?  I< Jun09 0:00 [kworker/0:0H] root 6 0.0 0.0 0 0 ?  I< Jun09 0:00 [mm_percpu_wq] root 7 0.0 0.0 0 0 ?  S Jun09 
+0:00 [ksoftirqd/0] root 8 0.0 0.0 0 0 ?  I Jun09 0:00 [rcu_sched] root 9 0.0 0.0 0 0 ?  I Jun09 0:00 [rcu_bh] root 10 0.0 0.0 0 0 ?  S Jun09 0:00 
+[migration/0] root 11 0.0 0.0 0 0 ?  S Jun09 0:00 [watchdog/0] root 12 0.0 0.0 0 0 ?  S Jun09 0:00 [cpuhp/0] root 13 0.0 0.0 0 0 ?  S Jun09 0:00 
+[kdevtmpfs] root 14 0.0 0.0 0 0 ?  I< Jun09 0:00 [netns] root 15 0.0 0.0 0 0 ?  S Jun09 0:00 [rcu_tasks_kthre] root 16 0.0 0.0 0 0 ?  S Jun09 0:00 
+[kauditd] root 17 0.0 0.0 0 0 ?  S Jun09 0:00 [xenbus] root 18 0.0 0.0 0 0 ?  S Jun09 0:00 [xenwatch] root 19 0.0 0.0 0 0 ?  I Jun09 0:00 
+[kworker/0:1] root 20 0.0 0.0 0 0 ?  S Jun09 0:00 [khungtaskd] root 21 0.0 0.0 0 0 ?  S Jun09 0:00 [oom_reaper] root 22 0.0 0.0 0 0 ?  I< Jun09 
+0:00 [writeback] root 23 0.0 0.0 0 0 ?  S Jun09 0:00 [kcompactd0] root 24 0.0 0.0 0 0 ?  SN Jun09 0:00 [ksmd] root 25 0.0 0.0 0 0 ?  SN Jun09 0:00 
+[khugepaged] root 26 0.0 0.0 0 0 ?  I< Jun09 0:00 [crypto] root 27 0.0 0.0 0 0 ?  I< Jun09 0:00 [kintegrityd] root 28 0.0 0.0 0 0 ?  I< Jun09 0:00 
+[kblockd] root 29 0.0 0.0 0 0 ?  I< Jun09 0:00 [ata_sff] root 30 0.0 0.0 0 0 ?  I< Jun09 0:00 [md] root 31 0.0 0.0 0 0 ?  I< Jun09 0:00 
+[edac-poller] root 32 0.0 0.0 0 0 ?  I< Jun09 0:00 [devfreq_wq] root 33 0.0 0.0 0 0 ?  I< Jun09 0:00 [watchdogd] root 36 0.0 0.0 0 0 ?  S Jun09 
+0:00 [kswapd0] root 37 0.0 0.0 0 0 ?  I< Jun09 0:00 [kworker/u31:0] root 38 0.0 0.0 0 0 ?  S Jun09 0:00 [ecryptfs-kthrea] root 80 0.0 0.0 0 0 ?  
+I< Jun09 0:00 [kthrotld] root 81 0.0 0.0 0 0 ?  I< Jun09 0:00 [nvme-wq] root 82 0.0 0.0 0 0 ?  S Jun09 0:00 [scsi_eh_0] root 83 0.0 0.0 0 0 ?  I< 
+Jun09 0:00 [scsi_tmf_0] root 84 0.0 0.0 0 0 ?  S Jun09 0:00 [scsi_eh_1] root 85 0.0 0.0 0 0 ?  I< Jun09 0:00 [scsi_tmf_1] root 90 0.0 0.0 0 0 ?  
+I< Jun09 0:00 [ipv6_addrconf] root 100 0.0 0.0 0 0 ?  I< Jun09 0:00 [kstrp] root 175 0.0 0.0 0 0 ?  I< Jun09 0:00 [kworker/0:1H] root 279 0.0 0.0 
+0 0 ?  I< Jun09 0:00 [raid5wq] root 331 0.0 0.0 0 0 ?  S Jun09 0:00 [jbd2/xvda1-8] root 332 0.0 0.0 0 0 ?  I< Jun09 0:00 [ext4-rsv-conver] root 
+394 0.0 2.3 111044 23852 ?  S<s Jun09 0:00 /lib/systemd/systemd-journald root 406 0.0 0.0 0 0 ?  I< Jun09 0:00 [iscsi_eh] root 411 0.0 0.0 0 0 ?  
+I< Jun09 0:00 [ib-comp-wq] root 412 0.0 0.0 0 0 ?  I< Jun09 0:00 [ib_mcast] root 413 0.0 0.0 0 0 ?  I< Jun09 0:00 [ib_nl_sa_wq] root 414 0.0 0.0 0 
+0 ?  I< Jun09 0:00 [rdma_cm] root 433 0.0 0.1 97708 1828 ?  Ss Jun09 0:00 /sbin/lvmetad -f root 441 0.0 0.5 44292 5240 ?  Ss Jun09 0:00 
+/lib/systemd/systemd-udevd root 471 0.0 0.0 0 0 ?  I 01:04 0:00 [kworker/0:0] root 547 0.0 0.0 0 0 ?  S< Jun09 0:00 [loop0] root 548 0.0 0.0 0 0 ?  
+S< Jun09 0:00 [loop1] root 551 0.0 0.0 0 0 ?  S< Jun09 0:00 [loop2] root 552 0.0 0.0 0 0 ?  S< Jun09 0:00 [loop3] systemd+ 553 0.0 0.3 141924 3180 
+?  Ssl Jun09 0:00 /lib/systemd/systemd-timesyncd ubuntu 693 0.0 0.2 11164 2968 pts/1 Ss+ 01:04 0:00 /home/ubuntu/.c9/bin/tmux -u2 -L cloud92.2 
+attach -t output590630 systemd+ 712 0.0 0.4 80040 5032 ?  Ss Jun09 0:00 /lib/systemd/systemd-networkd systemd+ 729 0.0 0.5 70752 5852 ?  Ss Jun09 
+0:00 /lib/systemd/systemd-resolved message+ 852 0.0 0.4 50104 4284 ?  Ss Jun09 0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork 
+--nopidfile --systemd-activation --syslog-only root 866 0.0 0.6 287996 6672 ?  Ssl Jun09 0:00 /usr/lib/accountsservice/accounts-daemon syslog 867 
+0.0 0.4 267268 4232 ?  Ssl Jun09 0:00 /usr/sbin/rsyslogd -n root 893 0.0 0.1 95540 1680 ?  Ssl Jun09 0:00 /usr/bin/lxcfs /var/lib/lxcfs/ daemon 
+899 0.0 0.2 28332 2164 ?  Ss Jun09 0:00 /usr/sbin/atd -f root 911 0.0 2.2 635048 22584 ?  Ssl Jun09 0:00 /usr/lib/snapd/snapd root 935 0.0 1.6 
+170820 16196 ?  Ssl Jun09 0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers root 991 0.0 0.2 31748 2896 ?  Ss Jun09 0:00 
+/usr/sbin/cron -f root 1003 0.0 0.5 70600 5880 ?  Ss Jun09 0:00 /lib/systemd/systemd-logind root 1035 0.0 1.2 542740 12780 ?  Ssl Jun09 0:00 
+/snap/amazon-ssm-agent/1335/amazon-ssm-agent root 1038 0.0 3.9 660216 39880 ?  Ssl Jun09 0:00 /usr/bin/containerd root 1080 0.0 1.8 187644 19000 ?  
+Ssl Jun09 0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal root 1083 0.0 0.6 288880 6332 ?  Ssl 
+Jun09 0:00 /usr/lib/policykit-1/polkitd --no-debug root 1094 0.0 6.4 631708 65016 ?  Ssl Jun09 0:01 /usr/bin/dockerd -H fd:// 
+--containerd=/run/containerd/containerd.sock root 1098 0.0 0.2 16412 2044 ttyS0 Ss+ Jun09 0:00 /sbin/agetty -o -p -- \u --keep-baud 
+115200,38400,9600 ttyS0 vt220 root 1107 0.0 0.5 72296 5796 ?  Ss Jun09 0:00 /usr/sbin/sshd -D root 1108 0.0 0.1 14888 1628 tty1 Ss+ Jun09 0:00 
+/sbin/agetty -o -p -- \u --noclear tty1 linux mysql 1160 0.0 17.2 1154568 173836 ?  Sl Jun09 0:02 /usr/sbin/mysqld --daemonize 
+--pid-file=/run/mysqld/mysqld.pid root 1166 0.0 1.8 424272 18348 ?  Ss Jun09 0:00 /usr/sbin/apache2 -k start www-data 1271 0.0 1.0 428676 10536 ?  
+S Jun09 0:00 /usr/sbin/apache2 -k start www-data 1272 0.0 1.0 428676 10536 ?  S Jun09 0:00 /usr/sbin/apache2 -k start www-data 1273 0.0 1.0 428676 
+10536 ?  S Jun09 0:00 /usr/sbin/apache2 -k start www-data 1274 0.0 1.0 428676 10536 ?  S Jun09 0:00 /usr/sbin/apache2 -k start www-data 1275 0.0 
+1.0 428676 10536 ?  S Jun09 0:00 /usr/sbin/apache2 -k start root 2034 0.0 0.6 108088 7048 ?  Ss Jun09 0:00 sshd: ubuntu [priv] ubuntu 2097 0.0 0.6 
+76512 7028 ?  Ss Jun09 0:00 /lib/systemd/systemd --user ubuntu 2098 0.0 0.2 193656 2124 ?  S Jun09 0:00 (sd-pam) ubuntu 2199 0.0 0.4 108224 4388 ?  
+S Jun09 0:02 sshd: ubuntu@notty ubuntu 2200 0.2 5.1 2090240 51656 ?  Ssl Jun09 0:17 vfs-worker 
+{"pingInterval":5000,"nodePath":"/home/ubuntu/.c9/node_modules","tmuxBin":"/home/ubuntu/.c9/bin/tmux","root":"/","debug":false,"connectionTimeout":60000,"metapath":"/.c9/metadata","envmetapath":"/.c9/metadata/environment","projectDir":"/home/ubuntu/environment","sshConnectTimeout":30000,"portForwards":[],"extendApi":{"collab":{"file":"c9.ide.collab/server/collab-server.js","user":{"userId":"615738650005","name":"root"},"project":{"workspaceId":"595ddaddaf854974a24e3fadc25405d6","name":"cloud9-ide","type":"ec2"},"environment":{"id":"595ddaddaf854974a24e3fadc25405d6","name":"cloud9-ide","type":"ec2","ideTemplateName":"Cloud9 
+Ubuntu"},"readonly":false,"nodePath":"/home/ubuntu/.c9/node_modules"},"ping":{"file":"c9.vfs.client/ping-service.js"},"store":{"file":"c9.vfs.client/store-service.js"}},"defaultEnv":{"HGUSER":"root","EDITOR":"","PORT":"8080","C9_PORT":"8080","IP":"127.0.0.1","C9_HOSTNAME":"34.242.206.151","C9_USER":"root","C9_PROJECT":"cloud9-ide","C9_PID":"595ddaddaf854974a24e3fadc25405d6"}} 
+root 2473 0.0 0.7 108088 7248 ?  Ss Jun09 0:00 sshd: ubuntu [priv] ubuntu 2717 0.0 0.3 108088 3548 ?  S Jun09 0:00 sshd: ubuntu@notty ubuntu 2718 
+0.0 2.9 912240 29584 ?  Ssl Jun09 0:00 vfs-worker 
+{"pingInterval":5000,"nodePath":"/home/ubuntu/.c9/node_modules","tmuxBin":"/home/ubuntu/.c9/bin/tmux","root":"/","debug":false,"connectionTimeout":60000,"metapath":"/.c9/metadata","envmetapath":"/.c9/metadata/environment","projectDir":"/home/ubuntu/environment","sshConnectTimeout":30000,"portForwards":[{"from":8080,"to":33531},{"from":8081,"to":33532},{"from":8082,"to":33533}],"extendApi":{"collab":{"file":"c9.ide.collab/server/collab-server.js","user":{"userId":"615738650005","name":"root"},"project":{"workspaceId":"595ddaddaf854974a24e3fadc25405d6","name":"cloud9-ide","type":"ec2"},"environment":{"id":"595ddaddaf854974a24e3fadc25405d6","name":"cloud9-ide","type":"ec2","ideTemplateName":"Cloud9 
+Ubuntu"},"readonly":false,"nodePath":"/home/ubuntu/.c9/node_modules"},"ping":{"file":"c9.vfs.client/ping-service.js"},"store":{"file":"c9.vfs.client/store-service.js"}},"defaultEnv":{"HGUSER":"root","EDITOR":"","PORT":"8080","C9_PORT":"8080","IP":"127.0.0.1","C9_HOSTNAME":"34.242.206.151","C9_USER":"root","C9_PROJECT":"cloud9-ide","C9_PID":"595ddaddaf854974a24e3fadc25405d6"}} 
+ubuntu 3382 0.0 0.3 20204 3684 ?  Ss Jun09 0:00 /home/ubuntu/.c9/bin/tmux -u2 -L cloud92.2 new -s output894011 bash -l -c 'printf 
+"\e[01;34m[Idle]\e[0m\n"; sleep 0.1;' ; set -q -g status off ; set -q destroy-unattached off ; set -q mouse-select-pane on ; set -q set-titles on 
+; set -q quiet on ; set -q -g prefix C-b ; set -q -g default-terminal xterm-256color ; setw -q -g xterm-keys on ; set -q remain-on-exit on ; setw 
+-q -g aggressive-resize on root 4142 0.0 0.0 0 0 ?  I Jun09 0:00 [kworker/u30:2] ubuntu 6023 0.0 0.2 11164 2896 pts/3 Ss+ 01:15 0:00 
+/home/ubuntu/.c9/bin/tmux -u2 -L cloud92.2 attach -t output894011 ubuntu 6135 0.0 0.2 11164 2900 pts/0 Ss+ 01:15 0:00 /home/ubuntu/.c9/bin/tmux 
+-u2 -L cloud92.2 new -s cloud9_terminal_121 export ISOUTPUTPANE=0;bash -l ; set -q -g status off ; set -q destroy-unattached off ; set -q 
+mouse-select-pane on ; set -q set-titles on ; set -q quiet on ; set -q -g prefix C-b ; set -q -g default-terminal xterm-256color ; setw -q -g 
+xterm-keys on ubuntu 6137 0.0 0.3 13312 3180 pts/4 Ss 01:15 0:00 bash -c export ISOUTPUTPANE=0;bash -l ubuntu 6138 0.0 1.0 28228 10172 pts/4 S 
+01:15 0:00 bash -l root 6708 0.0 0.0 0 0 ?  I 01:23 0:00 [kworker/u30:1] root 6996 0.0 0.0 0 0 ?  I 01:31 0:00 [kworker/u30:0] ubuntu 7192 0.0 0.3 
+40092 3636 pts/4 R+ 01:34 0:00 ps aux ubuntu 7193 0.0 0.2 14920 2680 pts/4 D+ 01:34 0:00 nano
