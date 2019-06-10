@@ -6,6 +6,8 @@ const app = express();
 //Body Parser
 const bodyParser = require('body-parser');
 //Weather App
+//var weather = require('./weather.js');
+//Temp App
 var weather = require('./weather.js');
 
 //Express Config
@@ -14,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs')
 //Render Oage
 app.get('/', function (req, res) {
-  res.render('index', {weather: null, error: null});
+  res.render('index', {thescore: null});
 })
 
 //POST Function
@@ -22,13 +24,19 @@ app.post('/', function (req, res) {
   let city = req.body.city;
   weather.getWeather(city, function(response){
     //console.log(response);
-        let conditions = response.weather[0].main;
-        let temp = response.main.temp
-        let location = response.name;
-        let locationCountry = response.sys.country;
+        let data = response;
+        var thescore = data;
         //console.log(response);
-        var report = location + ", " + locationCountry +  " Temp: " + temp + "°C" + " Conditions - " + conditions; 
-        res.render('index', {weather: report, error: null});
+        if(data == undefined){
+            var errorOutput = "Error, city not found.";
+        }else{
+            var conditions = response.weather[0].main;
+            var temp = response.main.temp
+            var location = response.name;
+            var locationCountry = response.sys.country;
+            var output = location;
+        };
+        res.render('index', {thescore: thescore, weather: conditions, location: location, error: errorOutput});
     });   
 });
 

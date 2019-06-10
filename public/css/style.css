@@ -65,8 +65,18 @@ fieldset {
   border:2px solid #515151;
 }
 p {
-  color: #E64A19;
+  color: black;
 }
 .results {
-  width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+    color: blue;
+}
+.results:first-of-type {
+    margin-top: 15px;
+}
+.error {
+    color: red !important;
 }
