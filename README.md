@@ -5,8 +5,7 @@
      /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
  ----------------------------------------------------------------- 
  
-#Made with AWS Cloud9
- 
-##nodejs testing project
+Made with AWS Cloud9
+nodejs testing project
 
 A simple nodejs based web app to return weather data for a city.
