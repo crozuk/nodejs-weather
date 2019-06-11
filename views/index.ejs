@@ -15,8 +15,9 @@
         </form>
         <% if(thescore !== null){ %>
           <% if(thescore !== undefined){ %>
-            <p class="results"><%= weather %></p>
             <p class="results"><%= location %></p>
+            <p class="results"><%= temperature + "°C" %></p>
+            <p class="results"><%= weather %></p>
           <% } %>
           <% if(thescore == undefined){ %>
             <p class="results error"><%= error %></p>

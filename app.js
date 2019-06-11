@@ -36,7 +36,7 @@ app.post('/', function (req, res) {
             var locationCountry = response.sys.country;
             var output = location;
         };
-        res.render('index', {thescore: thescore, weather: conditions, location: location, error: errorOutput});
+        res.render('index', {thescore: thescore, weather: conditions, location: location, error: errorOutput, temperature: temp});
     });   
 });
 
